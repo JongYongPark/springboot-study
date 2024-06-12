@@ -11,7 +11,7 @@ public interface MemberStore {
 	CommunityMember retrieveByEmail(String email);
 	List<CommunityMember> retrieveByName(String name);
 	void update(CommunityMember member);
-	void delete(String email);
+	void delete(String memberId);
 	
 	boolean exists(String memberId);
 }

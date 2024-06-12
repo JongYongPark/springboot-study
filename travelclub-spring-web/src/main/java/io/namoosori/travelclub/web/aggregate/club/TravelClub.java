@@ -16,8 +16,10 @@ public class TravelClub extends Entity {
 	private static final int MINIMUM_NAME_LENGTH =  3;
 	private static final int MINIMUM_INTRO_LENGTH =  10;
 
+//	실제 필요한 것은 name과 intro만 필요하다.
 	private String name;
 	private String intro;
+
 	private long foundationTime;
 
 	public TravelClub(String id) {
