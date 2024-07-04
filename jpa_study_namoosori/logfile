@@ -1,0 +1,2 @@
+2024-06-04 14:11:20.112 KST [48660] LOG:  redirecting log output to logging collector process
+2024-06-04 14:11:20.112 KST [48660] HINT:  Future log output will appear in directory "log".

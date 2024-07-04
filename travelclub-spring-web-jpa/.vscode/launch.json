@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-TravelClubApp<travelclub-spring-web>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "io.namoosori.travelclub.web.TravelClubApp",
+      "projectName": "travelclub-spring-web",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

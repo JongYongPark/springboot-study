@@ -1,19 +1,5 @@
 export URL=http://localhost:8080
 
-makefile-in-windows:
-	https://medium.com/@samsorrahman/how-to-run-a-makefile-in-windows-b4d115d7c516
-## silent mode
-	https://stackoverflow.com/questions/9967105/suppress-echo-of-command-invocation-in-makefile
-		make -s p-env
-
-## change make bin -> c:/nobackup/dev_tool/w64devkit/bin/make
-	https://stackoverflow.com/questions/36403285/using-intellij-idea-for-project-using-makefiles
-		For Windows users
-			So far, the guidance provided by Dannil Maslov ( see intelliJ IDEA thread here ) worked for me.
-			Install GnuWin32 (Make for Windows).
-			Install the IDEA Makefile plugin.
-			Go to settings and specify the path to make executable under: File | Settings | Build, Execution, Deployment | Make | Path to Make executable (by default: C:\Program Files (x86)\GnuWin32\bin\make.exe). Check "Use Cygwin" if necessary.
-
 t:
 	echo "aaa"  | grep "a"
 
