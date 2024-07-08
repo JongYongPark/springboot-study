@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+        
+        <!-- 1. clubStore, clubService를 bean으로 등록 -->
+<!-- 
+        <bean id='clubStore' class="io.namoosori.travelclub.spring.store.mapstore.ClubMapStore"/>
+        <bean id='clubService' class="io.namoosori.travelclub.spring.service.logic.ClubServiceLogic">
+                 -->
+                <!-- 2.clubService를 bean으로 등록하면서 생성자의 파라미터로 clubStore의 id를 갖는 이 bean을 주입해 주겠다. -->
+<!--            <constructor-arg ref="clubStore"/> 
+        </bean> -->
+
+        <!-- 일일히 bean을 등록하는게 번거롭기 때문에 사용!! -->
+        <!-- base-package가 되는 곳에서부터 하위로 내려가며 bean(컴퍼넌트)들을 찾아 등록해라 -->
+        <!-- @Repository, @Service, @Controller, @Component 스테레오타입 클래스들을 자동으로 인식-->
+        <context:component-scan base-package="io.namoosori.travelclub.spring"/>
+
+
+</beans>
