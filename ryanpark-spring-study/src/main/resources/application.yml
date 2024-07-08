@@ -1,0 +1,13 @@
+# common
+security.jwt.token.secret-key: my-secret-key
+app.nfs.path: /tmp
+
+spring:
+  application:
+    name: web
+  profiles:
+    active: local
+#  profiles:
+#    active: dev
+#  profiles:
+#    active: prod

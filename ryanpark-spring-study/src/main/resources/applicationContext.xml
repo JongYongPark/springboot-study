@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <context:component-scan base-package="ryanpark.spring.web"/>
+
+<!--&lt;!&ndash;    DI setting - xml &ndash;&gt;-->
+<!--&lt;!&ndash;    호출된것&ndash;&gt;-->
+<!--    <bean id="clubStore" class="mapstore.store.ryanpark.spring.web.ClubMapStore"/>-->
+
+<!--&lt;!&ndash;    호출하는 것. 호출될 대상 설정, 생성자에서 호출할 예정 &ndash;&gt;-->
+<!--    <bean id="clubService" class="logic.service.ryanpark.spring.web.ClubServiceLogic">-->
+<!--        <constructor-arg ref="clubStore"/>-->
+<!--    </bean>-->
+
+
+    <bean id="bar" class="ryanpark.spring.web.Bar"/>
+    <bean id="foo" class="ryanpark.spring.web.Foo">
+            <property name="bar" ref="bar"/>
+    </bean>
+</beans>
+
+
+
+
+

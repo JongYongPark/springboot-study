@@ -1,0 +1,31 @@
+# in dev server
+server:
+  port: 8080
+
+datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5434/test
+  username: postgres
+  password: postgres
+
+jpa:
+  database-platform: org.hibernate.dialect.PostgreSQLDialect
+  show_sql: true
+  properties:
+    hibernate:
+      format_sql: true
+
+
+## DATABASE
+#  spring.datasource.url=jdbc:postgresql://localhost:5434/sbb
+#  spring.datasource.driverClassName=org.postgresql.Driver
+#  spring.datasource.username=postgres
+#  spring.datasource.password=postgres
+#  # JPA
+#  spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+#  # for the first time to create table
+#  spring.jpa.hibernate.ddl-auto=create
+#  #spring.jpa.hibernate.ddl-auto=update
+#  spring.jpa.properties.hibernate.format_sql=true
+#  spring.jpa.properties.hibernate.show_sql=true
+
