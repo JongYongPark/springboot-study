@@ -30,3 +30,32 @@ Spring 5 for Beginner 강좌 관련 교재 및 관련 소스 자료입니다.
   <img src='./UML/service_diagram.jpeg' alt='services' width='70%'/> <br/>
 
 - clubStore, membershipStore, memberStore : **interface**
+
+
+
+# https://github.com/serlesen/backend-social-network
+
+
+git clone --branch chapter_3_4 https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch3_4
+git clone --branch chapter_3_5 https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch3_5
+git clone --branch chapter_3_6 https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch3_6
+git clone --branch chapter_3_7 https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch3_7
+git clone --branch chapter_4   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch4  
+git clone --branch chapter_4_1 https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch4_1
+git clone --branch chapter_5   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch5 
+git clone --branch chapter_5_2   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch5_2 
+git clone --branch chapter_6   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch6 
+git clone --branch chapter_7   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch7 
+git clone --branch chapter_8   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch8 
+git clone --branch chapter_9_1   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch9_1 
+git clone --branch chapter_9_2   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch9_2 
+git clone --branch chapter_9_3   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch9_3 
+git clone --branch chapter_9_4   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch9_4 
+git clone --branch chapter_10   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch10 
+git clone --branch chapter_11   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch11 
+git clone --branch chapter_11_2   https://github.com/serlesen/backend-social-network.git .\backend-social-network-ch11_2 
+
+
+# https://github.com/ohhoonim/springboot3-demo
+
+# https://github.com/devbeekei/spring-security-oauth2
